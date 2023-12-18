@@ -10,8 +10,8 @@
   <div class="container">
     <div class="calculator">
         <input class="pannel" placeholder="0" id="out-element">
-        <button onclick="Clear()">CL</button>
-        <button onclick="del()">DEL</button>
+        <button onclick="Clear()" class="delete">CL</button>
+        <button onclick="del()" class="delete">DEL</button>
         <button onclick="dispaly('%')">%</button>
         <button onclick="dispaly('/')">/</button>
         <button onclick="dispaly('7')">7</button>
@@ -28,6 +28,15 @@
         <button onclick="dispaly('+')">+</button>
         <button onclick="dispaly('.')">.</button>
         <button onclick="dispaly('0')">0</button>
+        <button onclick="dispaly('^')">^</button>
+        <button onclick="dispaly('√(')">√</button>
+        <button onclick="dispaly('log(')">log</button>
+        <button onclick="dispaly('ln(')">ln</button>
+        <button onclick="dispaly('sin(')">sin</button>
+        <button onclick="dispaly('cos(')">cos</button>
+        <button onclick="dispaly('tan(')">tan</button>
+        <button onclick="dispaly('(')">(</button>
+        <button onclick="dispaly(')')">)</button>
         <button onclick="calculate()" class="equal">=</button>
     </div>
   </div>
